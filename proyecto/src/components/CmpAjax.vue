@@ -17,7 +17,7 @@ export default {
   created() {
     axios.get(this.url)
       .then(resp => {
-        console.log(resp);
+        // console.log(resp);
         this.frases = resp.data.value;
       })
   }
